@@ -5,13 +5,13 @@
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/eethsc">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&height=40&lines=Agent+Harness+Engineering+%26+Staged+Causal+Verification;Advanced+Hybrid+RAG+(Morphological+BM25+%2B+Dense+%2B+Cross-Reranker);Deep-Web+Frontier+Exploration+%26+Multi-Source+Search+Orchestration;End-to-End+Production+Platforms+%26+Real-Time+Agentic+Workspaces" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=740&height=40&lines=Agent+Harness+Engineering+%26+Staged+Causal+Verification;Advanced+Hybrid+RAG+(Morphological+BM25+%2B+Dense+%2B+Cross-Reranker);Multi-Domain+Search+Engines+(Contextual+Retrieval+%2B+Sub-Search);Cross-Domain+Engineering+from+AI+Semiconductor+to+Bio-Medical+Systems" alt="Typing SVG" />
   </a>
 
   <p align="center">
     <a href="https://github.com/eethsc?tab=repositories"><img src="https://img.shields.io/badge/Domain-Information%20Retrieval%20%26%20Search-6366f1?style=flat-square&logo=target&logoColor=white" alt="Domain" /></a>
     <a href="https://github.com/eethsc?tab=repositories"><img src="https://img.shields.io/badge/Architecture-Agent%20Harness%20%26%20Governance-0ea5e9?style=flat-square&logo=diagram-next&logoColor=white" alt="Architecture" /></a>
-    <a href="https://github.com/eethsc?tab=repositories"><img src="https://img.shields.io/badge/Production-Full--Stack%20Platforms-10b981?style=flat-square&logo=server&logoColor=white" alt="Production" /></a>
+    <a href="https://github.com/eethsc?tab=repositories"><img src="https://img.shields.io/badge/Scope-Cross--Domain%20Bio%20%26%20Platforms-10b981?style=flat-square&logo=server&logoColor=white" alt="Scope" /></a>
     <img src="https://komarev.com/ghpvc/?username=eethsc&label=Profile%20Views&color=0284c7&style=flat-square" alt="Profile Views" />
   </p>
 
@@ -25,9 +25,9 @@
 
 단순한 라이브러리 조합이나 래퍼(Wrapper) 개발을 지양하며, LLM이 실전 프로덕션에서 동작하기 위해 요구되는 **정보 검색(Information Retrieval)의 정밀도**와 **자율 에이전트의 결정론적 검증 거버넌스(Governance Harness)**를 집중적으로 연구하고 엔지니어링합니다.
 
-- 🔎 **Search & Retrieval Systems:** 오프라인 형태소 인덱스 베이킹, Cross-Attention 기반 리랭킹, 그리고 에이전트 추론 루프 내에 직접 임베딩되는 **실시간 이중 웹 검색 엔진(Dual Web Search Engine)** 파이프라인을 구축합니다.
+- 🔎 **Search & Retrieval Systems:** 내부 문서 하이브리드 RAG, 심층 웹 전수조사, 자연어 다면적 검색(Contextual Retrieval), 그리고 에이전트 추론 루프 내의 **In-Loop 검색 및 하위 콘텐츠 생성 검색엔진**까지 목적에 맞는 최적의 검색 아키텍처를 설계합니다.
 - 🛡️ **Harness & Verification Engineering:** 에이전트의 환각(Hallucination)과 수렴 실패를 원천 차단하기 위해, 의존성 그래프 기반의 인과 게이트웨이와 **평가·검증 전용 하네스(Dual-Harness²)** 구조를 설계합니다.
-- 🚀 **Full-Stack & Real-World Deployment:** 연구 단계에 머무르지 않고, FastAPI 웹소켓 실시간 바이오 모니터링, Vite/React 상용 플랫폼, Discord 봇 결합 멀티모달 에이전트 워크스페이스까지 **엔드투엔드 프로덕션 서비스**로 완성합니다.
+- 🩺 **Cross-Domain Engineering Scope:** AI 반도체 자동화부터 대규모 웹 플랫폼, 그리고 **메디컬/바이오(연하곤란 생체 신호 모델링) 영역**까지 고난도 도메인의 물리·생리학적 요구조건을 고신뢰성 소프트웨어 시스템으로 완벽히 치환합니다.
 
 ---
 
@@ -37,11 +37,11 @@
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│  1. Information Retrieval & Neural Search (정보 검색 및 뉴럴 검색론)                   │
+│  1. Information Retrieval & Search Systems (정보 검색 및 다면적 검색 엔진)             │
 │  - Pre-indexing Inverted Index Baking: 런타임 CPU 병목을 0으로 만드는 오프라인 인덱싱   │
 │  - Hybrid Search Fusion: C++ 형태소 분석 Sparse BM25 + Multi-lingual Dense Vector 스토어 │
 │  - Cross-Encoder Reranking: Cross-Attention 레이어로 후보군을 압축·필터링하여 환각 차단 │
-│  - Context Reconstruction: 정밀 Child 청크 탐색 후 Parent 계층 윈도우 문맥 역복원       │
+│  - Contextual & Sub-Search: 도메인 메타데이터 추출, 하위 콘텐츠 생성을 위한 보조 검색   │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │  2. Agent Harness & Closed-Loop Governance (에이전트 하네스 및 거버넌스)                │
 │  - Causal Dependency Gates: 단계별 인과 순서(Topology → Power/Bias → Dynamic) 강제 제어  │
@@ -54,10 +54,10 @@
 │  - Deep-Web Exhaustive Sweep: 광범위한 웹 도메인에서 특정 고가치 데이터를 완전 무결 수집│
 │  - Resilient Ingestion Pipeline: 청크 지연 처리, 무중단 클라우드 스케줄링 및 RLS 영속화   │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│  4. Systems Concurrency & Real-Time Engineering (동시성 및 실시간 분산 아키텍처)       │
-│  - GIL Isolation & Asynchronous Decoupling: 메인 스레드와 무거운 검색/추론 간 비동기 분기│
-│  - Real-Time Full-Duplex WebSockets: 초당 상태 모니터링 및 실시간 이상 징후 스트리밍     │
-│  - Multi-Interface Agent Serving: Web UI와 Discord Gateway를 단일 백엔드로 동시 서빙     │
+│  4. Cross-Domain Systems & Bio-Medical Modeling (교차 도메인 및 메디컬 엔지니어링)     │
+│  - Clinical State Machines: 생리학적 위상 변화(대기·정상·주의·기도흡인경고·회복) 모델링 │
+│  - Real-Time Bio-Signal Telemetry: 초당 상태 변화 및 자세 준수율 전이중 웹소켓 스트리밍│
+│  - Asynchronous Concurrency: GIL 분리 백그라운드 워커, 멀티 인터페이스(Web+Discord) 동시 서빙│
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -73,13 +73,13 @@
 
 ---
 
-### 🚀 Production Platforms & Real-World Solutions (상용 플랫폼 & 도메인 솔루션)
+### 🚀 Production Platforms & Cross-Domain Solutions (상용 플랫폼 & 도메인 솔루션)
 
 | 프로젝트 | 시스템 설명 및 핵심 엔지니어링 성과 | 주요 스택 & 아키텍처 |
 | :--- | :--- | :--- |
-| 🏪 **[local-restaurant-platform](https://github.com/eethsc/local-restaurant-platform)** | **로컬 상권 커머스 및 레스토랑 풀스택 웹 플랫폼**<br>• 다중 이해관계자(점주·고객·배달)를 위한 직관적인 유저 플로우(`user_flow_v2.json`) 및 아키텍처 설계<br>• Vite 기반 React SPA 프론트엔드와 PostgreSQL 데이터베이스, Vercel 무중단 클라우드 배포<br>• 복잡한 주문/예약 트랜잭션 및 로컬 상권 데이터 파이프라인 구축 | `Vite` `React` `PostgreSQL` `Vercel` `UI/UX Architecture` |
-| 🤖 **[eteGTMagent (FOG Studio)](https://github.com/eethsc/eteGTMagent)** | **초기 창업자를 위한 자율 GTM(Go-To-Market) 에이전트 워크스페이스**<br>• NVIDIA NIM (`nemotron-3.5-lightning-30b-a3b`) 고속 추론 기반 8대 성장 워크플로우 스트리밍 생성<br>• 단일 백엔드에서 Vite 웹 인터페이스와 Discord 슬래시 커맨드(`/fog`) 봇 동시 서빙<br>• 모델이 근거 없이 외부 액션을 주장하지 못하도록 입력 정보와 가정을 엄격히 분리하는 환각 방지 설계 | `TypeScript` `NVIDIA NIM` `Discord.js` `Node.js` `Fast Streaming` |
-| 🩺 **[swallowguard](https://github.com/eethsc/swallowguard)** | **연하곤란(삼킴 장애) 환자 및 시니어 케어를 위한 실시간 바이오 모니터링 시스템**<br>• 초당 상태 변화를 감지하는 양방향 웹소켓(WebSocket) 전이중 통신 파이프라인 구축<br>• 5단계 시뮬레이션 상태(대기 ➔ 정상 ➔ 주의 ➔ 경고-사례중단 ➔ 회복) 머신 및 이상 삼킴 횟수/자세율 실시간 판정<br>• 비동기 이벤트 루프 기반 실시간 헬스케어 보조 대시보드 렌더링 | `FastAPI` `WebSocket` `Real-Time Engine` `Healthcare IoT` |
+| 🏪 **[local-restaurant-platform](https://github.com/eethsc/local-restaurant-platform)** | **다면적 검색 엔진 & 콘텐츠 생성 서브시스템 기반 로컬 미식 플랫폼**<br>• **Contextual Gourmet Retrieval:** 시간(공강), 예산, 인원, 미식 취향의 복합 자연어 조건을 파싱하여 카카오맵·블로그 검색 API 및 로컬 지리 데이터를 결합한 실시간 최적 식당 탐색 엔진 구현<br>• **Sub-Search Carousel Builder:** 소상공인 인스타그램 홍보 캐러셀 자동 생성을 위해 맛집 리뷰, 키워드, 메타데이터를 검색·추출하여 카드뉴스로 가공하는 하위 검색 서브시스템 탑재<br>• 다중 이해관계자(점주·고객·배달)를 위한 직관적인 유저 플로우(`user_flow_v2.json`) 설계 및 Vite/React, PostgreSQL 기반 클라우드 서빙 | `Contextual Retrieval`<br>`Sub-Search Engine`<br>`Vite` `React`<br>`PostgreSQL` `Vercel` |
+| 🤖 **[eteGTMagent (FOG Studio)](https://github.com/eethsc/eteGTMagent)** | **초기 창업자를 위한 자율 GTM(Go-To-Market) 에이전트 워크스페이스**<br>• NVIDIA NIM (`nemotron-3.5-lightning-30b-a3b`) 고속 추론 기반 8대 성장 워크플로우 스트리밍 생성<br>• 단일 백엔드에서 Vite 웹 인터페이스와 Discord 슬래시 커맨드(`/fog`) 봇 동시 서빙<br>• 모델이 근거 없이 외부 액션을 주장하지 못하도록 입력 정보와 가정을 엄격히 분리하는 환각 방지 설계 | `TypeScript` `NVIDIA NIM`<br>`Discord.js` `Node.js`<br>`Fast Streaming` |
+| 🩺 **[swallowguard](https://github.com/eethsc/swallowguard)** | **메디컬/바이오 도메인 확장 — 실시간 연하곤란(삼킴 장애) 생체 모니터링 시스템**<br>• **바이오/의료 도메인으로의 확장:** 단순 웹 서비스를 넘어 연하곤란(Dysphagia) 환자의 임상적 생체 메커니즘을 소프트웨어로 구현<br>• **생리학적 5단계 상태 머신:** 대기 ➔ 정상 ➔ 주의 ➔ 경고(사례·기도 흡인 위험) ➔ 회복의 임상 위상을 실시간으로 판정하고 이상 삼킴 빈도 및 자세 준수율 모니터링<br>• 초당 상태 변화를 실시간 감지하여 전송하는 FastAPI 기반 양방향 웹소켓(WebSocket) 전이중 스트리밍 파이프라인 | `Medical/Bio Expansion`<br>`Clinical State Machine`<br>`FastAPI` `WebSocket`<br>`Real-Time Telemetry` |
 
 ---
 
@@ -97,5 +97,5 @@
 ---
 
 <div align="center">
-  📫 <i>Open to discussions on Information Retrieval, Agent Harness Engineering, and End-to-End Production Systems.</i>
+  📫 <i>Open to discussions on Information Retrieval, Agent Harness Engineering, and Cross-Domain Systems.</i>
 </div>
