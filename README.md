@@ -1,16 +1,16 @@
 <div align="center">
 
   <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21,31&height=200&section=header&text=eethsc+👋&fontSize=42&fontAlignY=38&desc=Harness+%26+Search+Engine+Engineer+%7C+Agentic+AI+Architect&descAlignY=62&descSize=16" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21,31&height=200&section=header&text=eethsc+👋&fontSize=42&fontAlignY=38&desc=Harness+%26+Search+Engine+Engineer+%7C+Information+Retrieval+%26+Agent+Governance&descAlignY=62&descSize=15" width="100%" alt="Header Banner" />
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/eethsc">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&height=40&lines=Agent+Harness+Engineering+%26+Autonomous+Causal+Verification;Advanced+Hybrid+RAG+(Kiwi+BM25+%2B+Voyage+Dense+%2B+Cross-Reranker);Multi-Domain+Search+Engines+(Tavily+%C2%B7+Exa+%C2%B7+Firecrawl+%C2%B7+Scrape.do);AI+Semiconductor+%26+EDA+Automation+via+Closed-Loop+Agents" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=40&lines=Agent+Harness+Engineering+%26+Staged+Causal+Verification;Advanced+Hybrid+RAG+(Morphological+BM25+%2B+Dense+%2B+Cross-Reranker);Deep-Web+Frontier+Exploration+%26+Multi-Source+Search+Orchestration;In-Loop+Web+Search+Engines+Integrated+with+Autonomous+Agents" alt="Typing SVG" />
   </a>
 
   <p align="center">
-    <a href="https://github.com/eethsc?tab=repositories"><img src="https://img.shields.io/badge/Focus-Harness%20%26%20Search%20Engine-6366f1?style=flat-square&logo=target&logoColor=white" alt="Focus" /></a>
-    <a href="https://github.com/eethsc?tab=repositories"><img src="https://img.shields.io/badge/Architecture-Agentic%20AI%20%26%20RAG-0ea5e9?style=flat-square&logo=diagram-next&logoColor=white" alt="Architecture" /></a>
+    <a href="https://github.com/eethsc?tab=repositories"><img src="https://img.shields.io/badge/Domain-Information%20Retrieval%20%26%20Search-6366f1?style=flat-square&logo=target&logoColor=white" alt="Domain" /></a>
+    <a href="https://github.com/eethsc?tab=repositories"><img src="https://img.shields.io/badge/Architecture-Agent%20Harness%20%26%20Governance-0ea5e9?style=flat-square&logo=diagram-next&logoColor=white" alt="Architecture" /></a>
     <img src="https://komarev.com/ghpvc/?username=eethsc&label=Profile%20Views&color=0284c7&style=flat-square" alt="Profile Views" />
   </p>
 
@@ -18,54 +18,60 @@
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 Engineering Philosophy
 
 > **"신뢰할 수 있는 에이전트 하네스(Harness)와 노이즈 없는 고정밀 검색 엔진을 구축합니다."**
 
-LLM이 실전 프로덕션에서 동작하기 위해 반드시 해결해야 할 **2가지 핵심 축(검색 정확도와 검증 거버넌스)**을 깊이 있게 파고드는 소프트웨어 엔지니어입니다.
+단순한 라이브러리 조합이나 래퍼(Wrapper) 개발을 지양하며, LLM이 실전 프로덕션에서 동작하기 위해 요구되는 **정보 검색(Information Retrieval)의 정밀도**와 **자율 에이전트의 결정론적 검증 거버넌스(Governance Harness)**를 집중적으로 연구하고 엔지니어링합니다.
 
-- 🔎 **Search & Retrieval Engineering:** Sparse(BM25)와 Dense Vector의 단순 결합을 넘어, 형태소 단위 사전 인덱싱, Cross-Encoder 리랭킹, 그리고 4대 웹 검색 엔진을 아우르는 **도메인 특화 고성능 검색 파이프라인**을 설계합니다.
-- 🛡️ **Harness & Verification Engineering:** 에이전트의 환각(Hallucination)과 수렴 실패를 원천 차단하기 위해, 인과 의존성 그래프 기반의 게이트키퍼와 **평가·검증 전용 하네스(Dual-Harness²)** 구조를 엔지니어링합니다.
-- ⚡ **AI Semiconductor & EDA Automation:** 극도로 엄격한 도메인 지식이 요구되는 반도체/회로 물리 영역을 **순수 SW/Agentic AI 관점에서 데이터시트 파싱 ➔ 지식 그래프 추출 ➔ 코드 자율 합성 ➔ 폐루프 물리 시뮬레이션 검증**으로 자동화한 AI 반도체 프로젝트를 성공적으로 완수한 경험이 있습니다.
-
----
-
-### 🛠️ Core Technology Stack
-
-<div align="center">
-
-#### AI Search & Retrieval (RAG & Web Scraping)
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres" alt="Search Stack" />
-</a>
-<br/>
-<p align="center">
-  <img src="https://img.shields.io/badge/Kiwi_BM25-한국어_형태소_사전_인덱싱-4B5563?style=flat-square&logo=python&logoColor=white" alt="Kiwi" />
-  <img src="https://img.shields.io/badge/Voyage_AI-Dense_Embedding_%26_Rerank--2-7C3AED?style=flat-square" alt="Voyage" />
-  <img src="https://img.shields.io/badge/ChromaDB-Vector_Store-E11D48?style=flat-square" alt="ChromaDB" />
-  <img src="https://img.shields.io/badge/Multi--Web_Search-Tavily_%C2%B7_Exa_%C2%B7_Firecrawl_%C2%B7_Scrape.do-0EA5E9?style=flat-square" alt="Web Search" />
-</p>
-
-#### Backend, Cloud & Production
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,vite,docker,supabase,githubactions,git,linux" alt="Full Stack & Cloud" />
-</a>
-
-</div>
+- 🔎 **Search & Retrieval Systems:** 오프라인 형태소 인덱스 베이킹, Cross-Attention 기반 리랭킹, 그리고 에이전트 추론 루프 내에 직접 임베딩되는 **실시간 이중 웹 검색 엔진(Dual Web Search Engine)** 파이프라인을 구축합니다.
+- 🛡️ **Harness & Verification Engineering:** 에이전트의 환각(Hallucination)과 수렴 실패를 원천 차단하기 위해, 의존성 그래프 기반의 인과 게이트웨이와 **평가·검증 전용 하네스(Dual-Harness²)** 구조를 설계합니다.
+- 🌐 **Deep-Web Frontier Harvesting:** 일반 검색 엔진으로 색인되지 않는 월드와이드웹 심층 도메인의 파편화된 비정형 데이터를 자율 탐색·전수 수집하는 다중 엔진 에이전틱 파이프라인을 구현합니다.
 
 ---
 
-### 🏛️ Engineering Pillars & Key Systems
+### 🔬 Core Research & Engineering Capabilities
 
-| 핵심 영역 | 설계 아키텍처 및 구현 성과 | 기술 스택 |
+잡다한 언어나 도구 목록 대신, **실제 시스템을 구현하고 최적화할 수 있는 핵심 이론 및 엔지니어링 역량**입니다.
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  1. Information Retrieval & Neural Search (정보 검색 및 뉴럴 검색론)                   │
+│  - Pre-indexing Inverted Index Baking: 런타임 CPU 병목을 0으로 만드는 오프라인 인덱싱   │
+│  - Hybrid Search Fusion: C++ 형태소 분석 Sparse BM25 + Multi-lingual Dense Vector 스토어 │
+│  - Cross-Encoder Reranking: Cross-Attention 레이어로 후보군을 압축·필터링하여 환각 차단 │
+│  - Context Reconstruction: 정밀 Child 청크 탐색 후 Parent 계층 윈도우 문맥 역복원       │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  2. Agent Harness & Closed-Loop Governance (에이전트 하네스 및 거버넌스)                │
+│  - Causal Dependency Gates: 단계별 인과 순서(Topology → Power/Bias → Dynamic) 강제 제어  │
+│  - Co-Evolutionary Dual Harness: 합성 거버넌스(C1~C8)와 독립 검증 하네스(V1~V3)의 공진화   │
+│  - Convergence Trap Prevention: 에이전트의 궤적 및 실패 패턴을 기록하는 동적 장기 메모리 │
+│  - In-Loop Search Integration: 에이전트 추론 중간에 레퍼런스를 실시간으로 검색·주입     │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  3. Frontier Web Exploration & Ingestion (심층 웹 탐색 및 비정형 데이터 정제)           │
+│  - Multi-Engine Orchestration: 심층 RAG, 시맨틱 뉴럴 탐색, DOM 정찰, WAF/방화벽 우회 결합 │
+│  - Deep-Web Exhaustive Sweep: 광범위한 웹 도메인에서 특정 고가치 데이터를 완전 무결 수집│
+│  - Resilient Ingestion Pipeline: 청크 지연 처리, 무중단 클라우드 스케줄링 및 RLS 영속화   │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  4. Systems Concurrency & Architecture (시스템 동시성 및 격리 아키텍처)                │
+│  - GIL Isolation & Asynchronous Decoupling: 메인 스레드와 무거운 검색/추론 간 비동기 분기│
+│  - Headless CLI Testbench: UI 없이 백엔드 검색/하네스 파이프라인만 격리 진단하는 도구화 │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🏛️ Key Systems & Architectures
+
+| 핵심 시스템 | 설계 아키텍처 및 구현 성과 | 핵심 메커니즘 |
 | :--- | :--- | :--- |
-| **🔎 Hybrid RAG Engine** | **KlaWde: 고성능 학사 인텔리전스 챗봇 시스템**<br>• **Pre-indexing Baking:** 런타임 CPU 병목을 없애기 위해 오프라인 빌드 타임에 Kiwi 형태소 기반 BM25 피클 객체 사전 캐싱 (로드 시간 0.1s)<br>• **Cross-Attention Reranking:** 1차 추출 40개 후보군(Sparse 20 + Dense 20)을 Voyage `rerank-2`로 재정렬하여 `top_n=4` 정밀 압축<br>• **Context Reconstruction:** 정밀 Child 청크에서 1,500자 Parent 윈도우 문맥 복원 및 멀티턴 Query Rewriting<br>• **GIL 격리 비동기 아키텍처:** 프론트엔드와 무거운 RAG 연산 간 교착 상태를 방지하는 비동기 데몬 스레드 & 디스크 세션 폴링 | `Python` `Streamlit` `Kiwi` `VoyageAI` `ChromaDB` `Gemini` `SQLite` |
-| **🌐 Multi-Domain Search Engine** | **Event Hub: 4대 골든 스택 에이전틱 웹 전수조사 파이프라인**<br>• **다중 도메인 탐색:** 심층 RAG(Tavily), 시맨틱 뉴럴 탐색(Exa), 마크다운 정찰(Firecrawl), WAF/보안 우회(Scrape.do)를 통합 오케스트레이션<br>• **무중단 운영:** GitHub Actions 클라우드 스케줄러(매일 06:00 KST)로 7,000+건 데이터 자동 수집 및 정제<br>• **보안 클라우드 DB 연동:** Supabase PostgreSQL RLS(Row Level Security) 접근 제어 및 실시간 대량 Upsert 파이프라인 | `Node.js (Native)` `Supabase` `PostgreSQL (RLS)` `GitHub Actions` `PWA` |
-| **🛡️ Agent Harness & AI 반도체** | **Dual-Harness²: 폐루프 자율 합성 및 4단계 인과 검증 시스템**<br>• **에이전트 거버넌스 하네스($C_1\sim C_8$):** NousResearch Hermes Agent 코어 위에 서브서킷 스킬 및 수렴 함정 장기 메모리(`MEMORY.md`) 자율 관리<br>• **PDG 4단계 인과 검증 하네스($V_1\sim V_3$):** Stage 0(토폴로지) $\to$ Stage 1(전원/바이어스) $\to$ Stage 2(신호 전달) $\to$ Stage 3(스펙) 순차 강제 게이트로 환각 0% 달성<br>• **AI 반도체 자동화:** 비구조화 PDF 데이터시트에서 하드웨어 지식 그래프(HKG)를 추출하고 순수 물리 넷리스트를 자율 합성하는 E2E 파이프라인 | `Python` `Agent Harness` `Neuro-Symbolic` `SPICE/LTspice` `Playwright` |
+| **🔎 Hybrid RAG Engine**<br>*(KlaWde)* | **초저지연·고정밀 인텔리전스 질의응답 시스템**<br>• **Pre-indexing Baking:** Kiwi 형태소 분석 기반 BM25 피클 객체를 빌드 타임에 사전 연산하여 런타임 로드 시간 0.1초 달성<br>• **Cross-Attention Reranking:** 1차 후보군 40개를 Voyage `rerank-2` 크로스 인코더로 정밀 압축 필터링(`top_n=4`)<br>• **Parent-Child Context Reconstruction:** Child 매칭 후 1,500자 Parent 윈도우 문맥 복원 및 대화 이력 기반 Query Rewriting<br>• **GIL 격리 비동기 아키텍처:** UI 메인 스레드와 RAG 연산 간 상호 간섭을 차단하는 비동기 워커 스레드 | `Pre-indexing Baking`<br>`Kiwi C++ BM25`<br>`Voyage Reranker`<br>`GIL Isolation` |
+| **🌐 Deep-Web Frontier Agent**<br>*(Multi-Source Data Ingestion)* | **월드와이드웹 심층 도메인 자율 탐색 및 전수 수집 에이전트**<br>• **다중 검색 엔진 오케스트레이션:** 일반 포털로 찾기 어려운 특정 분야의 파편화된 데이터를 심층 RAG(Tavily), 시맨틱 뉴럴 탐색(Exa), 마크다운 DOM 정찰(Firecrawl), WAF 우회(Scrape.do)를 결합해 완전 발굴<br>• **무결성 전수조사:** 7,000+건의 고가치 도메인 데이터를 노이즈 없이 정제·수집하는 무중단 에이전틱 파이프라인 구축<br>• **보안 데이터 영속화:** Supabase PostgreSQL RLS(Row Level Security) 접근 제어 및 실시간 대량 Upsert | `Multi-Engine Search`<br>`Deep-Web Frontier`<br>`WAF Bypass`<br>`PostgreSQL RLS` |
+| **🛡️ AI 반도체 자율 합성 & 하네스**<br>*(AnalogVerifier)* | **인루프 검색엔진과 4단계 인과 하네스가 결합된 AI 반도체 자동화 시스템**<br>• **In-Loop Dual Web Search:** 자율 에이전트 추론 루프 내에 Tavily + Exa 이중 웹 검색 엔진을 탑재하여, 설계 도중 필요한 회로 레퍼런스 및 모델 카드를 실시간으로 탐색·주입<br>• **PDG 4단계 인과 검증 하네스:** Topology ➔ Bias ➔ Transfer ➔ Dynamic 순차 게이트키퍼로 환각 0% 달성<br>• **Closed-Loop Synthesis:** 비구조화 PDF 데이터시트에서 지식 그래프(HKG)를 추출하고 순수 물리 넷리스트를 자율 합성하는 SW 파이프라인 | `In-Loop Web Search`<br>`Dual-Harness²`<br>`Causal Gateways`<br>`HKG/PDG Graphs` |
 
 ---
 
-### 📊 GitHub Activity & Language Analytics
+### 📊 GitHub Activity & Language Dynamics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=eethsc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
@@ -79,5 +85,5 @@ LLM이 실전 프로덕션에서 동작하기 위해 반드시 해결해야 할 
 ---
 
 <div align="center">
-  📫 <i>Open to discussions on Agent Harness Engineering, Advanced RAG, and Intelligent Search Architectures.</i>
+  📫 <i>Open to discussions on Information Retrieval, Agent Harness Engineering, and Deep-Web Search Architectures.</i>
 </div>
