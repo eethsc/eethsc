@@ -5,7 +5,7 @@
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/eethsc">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=740&height=40&lines=Agent+Harness+Engineering+%26+Staged+Causal+Verification;Advanced+Hybrid+RAG+(Morphological+BM25+%2B+Dense+%2B+Cross-Reranker);Multi-Domain+Search+Engines+(Contextual+Retrieval+%2B+Sub-Search);Cross-Domain+Engineering+from+AI+Semiconductor+to+Bio-Medical+Systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=740&height=40&lines=Agent+Harness+Engineering+%26+Staged+Causal+Verification;Advanced+Hybrid+RAG+(Morphological+BM25+%2B+Dense+%2B+Cross-Reranker);Multi-Domain+Search+Engines+(Tavily+%C2%B7+Exa+%C2%B7+Firecrawl+%C2%B7+Scrape.do);Cross-Domain+Engineering+from+AI+Semiconductor+to+Bio-Medical+Systems" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -25,7 +25,7 @@
 
 단순한 라이브러리 조합이나 래퍼(Wrapper) 개발을 지양하며, LLM이 실전 프로덕션에서 동작하기 위해 요구되는 **정보 검색(Information Retrieval)의 정밀도**와 **자율 에이전트의 결정론적 검증 거버넌스(Governance Harness)**를 집중적으로 연구하고 엔지니어링합니다.
 
-- 🔎 **Search & Retrieval Systems:** 내부 문서 하이브리드 RAG, 심층 웹 전수조사, 자연어 다면적 검색(Contextual Retrieval), 그리고 에이전트 추론 루프 내의 **In-Loop 검색 및 하위 콘텐츠 생성 검색엔진**까지 목적에 맞는 최적의 검색 아키텍처를 설계합니다.
+- 🔎 **Search & Retrieval Systems:** 내부 문서 하이브리드 RAG, 심층 웹 전수조사, 자연어 다면적 검색(Contextual Retrieval), 그리고 에이전트 추론 루프 내의 **In-Loop 검색 및 Tavily·Exa 이중 검색 기반 콘텐츠 생성 엔진**까지 목적에 맞는 최적의 검색 아키텍처를 설계합니다.
 - 🛡️ **Harness & Verification Engineering:** 에이전트의 환각(Hallucination)과 수렴 실패를 원천 차단하기 위해, 의존성 그래프 기반의 인과 게이트웨이와 **평가·검증 전용 하네스(Dual-Harness²)** 구조를 설계합니다.
 - 🩺 **Cross-Domain Engineering Scope:** AI 반도체 자동화부터 대규모 웹 플랫폼, 그리고 **메디컬/바이오(연하곤란 생체 신호 모델링) 영역**까지 고난도 도메인의 물리·생리학적 요구조건을 고신뢰성 소프트웨어 시스템으로 완벽히 치환합니다.
 
@@ -41,7 +41,7 @@
 │  - Pre-indexing Inverted Index Baking: 런타임 CPU 병목을 0으로 만드는 오프라인 인덱싱   │
 │  - Hybrid Search Fusion: C++ 형태소 분석 Sparse BM25 + Multi-lingual Dense Vector 스토어 │
 │  - Cross-Encoder Reranking: Cross-Attention 레이어로 후보군을 압축·필터링하여 환각 차단 │
-│  - Contextual & Sub-Search: 도메인 메타데이터 추출, 하위 콘텐츠 생성을 위한 보조 검색   │
+│  - Dual-Engine Sub-Search: Tavily(비주얼/팩트) + Exa(시맨틱 소구점) 결합 자동화 파이프라인│
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │  2. Agent Harness & Closed-Loop Governance (에이전트 하네스 및 거버넌스)                │
 │  - Causal Dependency Gates: 단계별 인과 순서(Topology → Power/Bias → Dynamic) 강제 제어  │
@@ -77,9 +77,9 @@
 
 | 프로젝트 | 시스템 설명 및 핵심 엔지니어링 성과 | 주요 스택 & 아키텍처 |
 | :--- | :--- | :--- |
-| 🏪 **[local-restaurant-platform](https://github.com/eethsc/local-restaurant-platform)** | **다면적 검색 엔진 & 콘텐츠 생성 서브시스템 기반 로컬 미식 플랫폼**<br>• **Contextual Gourmet Retrieval:** 시간(공강), 예산, 인원, 미식 취향의 복합 자연어 조건을 파싱하여 카카오맵·블로그 검색 API 및 로컬 지리 데이터를 결합한 실시간 최적 식당 탐색 엔진 구현<br>• **Sub-Search Carousel Builder:** 소상공인 인스타그램 홍보 캐러셀 자동 생성을 위해 맛집 리뷰, 키워드, 메타데이터를 검색·추출하여 카드뉴스로 가공하는 하위 검색 서브시스템 탑재<br>• 다중 이해관계자(점주·고객·배달)를 위한 직관적인 유저 플로우(`user_flow_v2.json`) 설계 및 Vite/React, PostgreSQL 기반 클라우드 서빙 | `Contextual Retrieval`<br>`Sub-Search Engine`<br>`Vite` `React`<br>`PostgreSQL` `Vercel` |
+| 🏪 **[local-restaurant-platform](https://github.com/eethsc/local-restaurant-platform)** | **다면적 검색 엔진 & Tavily · Exa 이중 검색 기반 인스타그램 캐러셀 자율 생성 시스템**<br>• **Contextual Multi-Param Search:** 공강 시간(도보/식사 가용 시간 연산), 예산, 인원, 미식 취향의 복합 조건을 실시간 분석하여 최적의 골목 상권 매장을 찾아내는 다면적 맞춤 검색 엔진<br>• **Tavily Web Search (비주얼/팩트 수집):** 매장의 실제 메뉴 사진, 비주얼 에셋, 최근 방문자 리뷰를 웹/SNS에서 실시간 검색·크롤링하여 시각적 증빙 데이터 확보<br>• **Exa Semantic Search (뉴럴 소구점 발굴):** 매장 고유의 분위기와 숨은 감성 키워드를 시맨틱(Neural) 단위로 정밀 발굴하여 인스타그램 타깃팅에 최적화된 핵심 소구점 도출<br>• **Autonomous Carousel Assembly:** Tavily로 확보한 팩트/비주얼과 Exa로 발굴한 시맨틱 소구점을 결합해 슬라이드별 카피, 비주얼 지침, 캡션이 완비된 고전환 홍보 캐러셀을 원클릭 자율 합성 | `Tavily Search`<br>`Exa Neural Search`<br>`Contextual Retrieval`<br>`Carousel Generator` |
 | 🤖 **[eteGTMagent (FOG Studio)](https://github.com/eethsc/eteGTMagent)** | **초기 창업자를 위한 자율 GTM(Go-To-Market) 에이전트 워크스페이스**<br>• NVIDIA NIM (`nemotron-3.5-lightning-30b-a3b`) 고속 추론 기반 8대 성장 워크플로우 스트리밍 생성<br>• 단일 백엔드에서 Vite 웹 인터페이스와 Discord 슬래시 커맨드(`/fog`) 봇 동시 서빙<br>• 모델이 근거 없이 외부 액션을 주장하지 못하도록 입력 정보와 가정을 엄격히 분리하는 환각 방지 설계 | `TypeScript` `NVIDIA NIM`<br>`Discord.js` `Node.js`<br>`Fast Streaming` |
-| 🩺 **[swallowguard](https://github.com/eethsc/swallowguard)** | **메디컬/바이오 도메인 확장 — 실시간 연하곤란(삼킴 장애) 생체 모니터링 시스템**<br>• **바이오/의료 도메인으로의 확장:** 단순 웹 서비스를 넘어 연하곤란(Dysphagia) 환자의 임상적 생체 메커니즘을 소프트웨어로 구현<br>• **생리학적 5단계 상태 머신:** 대기 ➔ 정상 ➔ 주의 ➔ 경고(사례·기도 흡인 위험) ➔ 회복의 임상 위상을 실시간으로 판정하고 이상 삼킴 빈도 및 자세 준수율 모니터링<br>• 초당 상태 변화를 실시간 감지하여 전송하는 FastAPI 기반 양방향 웹소켓(WebSocket) 전이중 스트리밍 파이프라인 | `Medical/Bio Expansion`<br>`Clinical State Machine`<br>`FastAPI` `WebSocket`<br>`Real-Time Telemetry` |
+| 🩺 **[swallowguard](https://github.com/eethsc/swallowguard)** | **메디컬/바이오 도메인 확장 — 연하곤란(삼킴 장애) 생체 메커니즘 모델링 및 실시간 텔레메트리**<br>• **엔지니어링 역량의 메디컬/바이오 확장:** 단순 IT 서비스를 넘어 복잡하고 엄격한 임상/디지털 헬스케어 영역으로 기술적 지평을 확장<br>• **생리학적 5단계 상태 머신:** 연하곤란(Dysphagia)의 임상적 메커니즘을 소프트웨어로 정밀 추상화하여 5단계 위상(대기 ➔ 정상 ➔ 주의 ➔ 기도 흡인 위험 경고 ➔ 회복)을 실시간 판정<br>• **실시간 바이오 텔레메트리 파이프라인:** 이상 삼킴 빈도 및 환자 자세 준수율을 초당 실시간 감지하여 전이중 웹소켓으로 스트리밍하는 헬스케어 모니터링 엔진 | `Medical/Bio Expansion`<br>`Clinical State Machine`<br>`Dysphagia Telemetry`<br>`Real-Time WebSocket` |
 
 ---
 
